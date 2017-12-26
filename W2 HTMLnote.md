@@ -1,24 +1,70 @@
 # HTML 预习
-[tables](#head1234)
+## Index 
+1. [Basic](#basic)
+2. [Element](#element)
+3. [Attributes](#attributes)
+4. [Headings](#headings)
+5. [Paragraphs](#paragraphs)
+6. [Styles](#styles)
+7. [Formatting](#formatting)
+8. [Quotations](#quotations)
+9. [Comments](#commnents)
+10. [Colors](#colors)
+11. [CSS](#css)
+12. [Links](#links)
+13. [Images](#images)
+14. [Tables](#tables)
+15. [Lists](#lists)
+16. [Blocks](#blocks)
+17. [Classes](#classes)
+18. [Iframe](#iframe)
+19. [HTML Javascript](#js)
 
+---
 ## 1. Basic
+<a name="basic"></a>
+
 ## 2. Element
+<a name="element"></a>
+
 ## 3. Attributes
+<a name="attributes"></a>
+
 ## 4. Headings
+<a name="headings"></a>
     ~~~html
     <h1>..<h6>
     ~~~
-## 5. Pragraphs
+
+## 5. Paragraphs
+<a name="paragraphs"></a>
+
 ## 6. Styles
+<a name="styles"></a>
+
 ## 7. Formatting
+<a name="formatting"></a>
+
 ## 8. Quotations
+<a name="quotations"></a>
+
 ## 9. Comments
+<a name="comments"></a>
+
 ## 10. Colors
-## 11. Css
+<a name="colors"></a>
+
+## 11. CSS
+<a name="css"></a>
+
 ## 12. Links
+<a name="links"></a>
+
 ## 13. Images
+<a name="images"></a>
+
 ## 14. Tables
-<a name="head1234"></a>
+<a name="tables"></a>
 
 ### Syntax    
 ~~~html
@@ -120,7 +166,9 @@
         } 
     </style>
 ~~~
+
 ## 15. Lists
+<a name="lists"></a>
 ### Syntax
 * Unordered
     ~~~html
@@ -173,7 +221,11 @@
 ### Horizontal Lists
 * Using CSS , to list horizontally, to create a `menu`
 
-## 15. Blocks
+<a name="head1234"></a>
+
+## 16. Blocks
+<a name="blocks"></a>
+
 ### Blocks
 * start a new line + take up the full width
 * common used tags:
@@ -203,7 +255,8 @@
     * `style`
     * `class`
 
-## 16. Classes
+## 17. Classes
+<a name="classes"></a>
 THis is attribute for all element. THe class attribute specifies one or more class names for an HTML element.
 
 THe class name can be sed by CSS and JavaScript to perform certain tasks for elements with the specified class name.
@@ -227,7 +280,9 @@ CSS usage
 </style>
 ~~~
 
-## 17. Iframe
+## 18. Iframe
+<a name="iframe"></a>
+
 Display a web page within a web page
 ### Syntax
 ~~~html
@@ -248,7 +303,9 @@ The link will be opened in the iframe window
 <p><a href="html://...." target="iframe_a"...></a></p>
 ~~~
 
-## 18. HTML Javascript
+## 19. HTML Javascript
+<a name="js"></a>
+
 ### tags
 ~~~html
 <script></script>
