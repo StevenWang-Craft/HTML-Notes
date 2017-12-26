@@ -8,7 +8,7 @@
 6. [Styles](#styles)
 7. [Formatting](#formatting)
 8. [Quotations](#quotations)
-9. [Comments](#commnents)
+9. [Comments](#comments)
 10. [Colors](#colors)
 11. [CSS](#css)
 12. [Links](#links)
@@ -21,51 +21,52 @@
 19. [HTML Javascript](#js)
 
 ---
-## 1. Basic
 <a name="basic"></a>
 
-## 2. Element
+## 1. Basic
 <a name="element"></a>
 
-## 3. Attributes
+## 2. Element
 <a name="attributes"></a>
 
-## 4. Headings
+## 3. Attributes
 <a name="headings"></a>
+
+## 4. Headings
+
     ~~~html
     <h1>..<h6>
     ~~~
-
-## 5. Paragraphs
 <a name="paragraphs"></a>
 
-## 6. Styles
+## 5. Paragraphs
 <a name="styles"></a>
 
-## 7. Formatting
+## 6. Styles
 <a name="formatting"></a>
 
-## 8. Quotations
+## 7. Formatting
 <a name="quotations"></a>
 
-## 9. Comments
+## 8. Quotations
 <a name="comments"></a>
 
-## 10. Colors
+## 9. Comments
 <a name="colors"></a>
 
-## 11. CSS
+## 10. Colors
 <a name="css"></a>
 
-## 12. Links
+## 11. CSS
 <a name="links"></a>
 
-## 13. Images
+## 12. Links
 <a name="images"></a>
 
-## 14. Tables
+## 13. Images
 <a name="tables"></a>
 
+## 14. Tables
 ### Syntax    
 ~~~html
 <table>
@@ -166,9 +167,9 @@
         } 
     </style>
 ~~~
+<a name="lists"></a>
 
 ## 15. Lists
-<a name="lists"></a>
 ### Syntax
 * Unordered
     ~~~html
@@ -221,11 +222,9 @@
 ### Horizontal Lists
 * Using CSS , to list horizontally, to create a `menu`
 
-<a name="head1234"></a>
-
-## 16. Blocks
 <a name="blocks"></a>
 
+## 16. Blocks
 ### Blocks
 * start a new line + take up the full width
 * common used tags:
@@ -255,8 +254,9 @@
     * `style`
     * `class`
 
-## 17. Classes
 <a name="classes"></a>
+
+## 17. Classes
 THis is attribute for all element. THe class attribute specifies one or more class names for an HTML element.
 
 THe class name can be sed by CSS and JavaScript to perform certain tasks for elements with the specified class name.
@@ -279,10 +279,9 @@ CSS usage
     }
 </style>
 ~~~
-
-## 18. Iframe
 <a name="iframe"></a>
 
+## 18. Iframe
 Display a web page within a web page
 ### Syntax
 ~~~html
@@ -297,17 +296,43 @@ Display a web page within a web page
 <iframe scr="" style="border:none;"></iframe>
 ~~~
 ### target for a link
-The link will be opened in the iframe window
+`The link will be opened in the iframe window`
 ~~~html
 <iframe src="" name="iframe_a"></iframe>
 <p><a href="html://...." target="iframe_a"...></a></p>
 ~~~
-
-## 19. HTML Javascript
 <a name="js"></a>
 
+## 19. HTML Javascript
 ### tags
 ~~~html
-<script></script>
-<noscript></noscript>
+1. <script></script>
+
+2. <noscript></noscript>
 ~~~
+
+<a name="paths"></a>
+
+## 20. File Paths
+1. Absolute File Paths
+2. Relative File Paths
+    * images folder -> root of the curent web
+    * images folder -> current folder
+    * images folder -> one level up of current folder
+
+<a name="head"></a>
+
+## 21. Head
+Head is a element for metadata. Metadata includes:
+~~~html
+1. <title>
+2. <style>
+3. <meta>
+4. <link>
+5. <script>
+6. <base>
+~~~
+### \<title>
+
+
+### \<style>
