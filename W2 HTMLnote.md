@@ -1,4 +1,6 @@
 # HTML 预习
+[tables](#head1234)
+
 ## 1. Basic
 ## 2. Element
 ## 3. Attributes
@@ -16,6 +18,8 @@
 ## 12. Links
 ## 13. Images
 ## 14. Tables
+<a name="head1234"></a>
+
 ### Syntax    
 ~~~html
 <table>
